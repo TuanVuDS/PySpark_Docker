@@ -1,0 +1,13 @@
+{
+    "name": "PySpark DevContainer",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+      "ms-python.python"
+    ],
+    "settings": {
+      "python.pythonPath": "/usr/bin/python3",
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "forwardPorts": [4040]
+  }
+  
